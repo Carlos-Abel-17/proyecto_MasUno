@@ -1,0 +1,43 @@
+$main-color: #1A36A8;
+$color-diferent:#D43E36;
+.conteiner {
+    display: flex;
+    flex-direction: column; 
+    padding: 0% 5%;
+  }
+#title_articule{
+    color: $color-diferent;
+    font-size: 2.5rem;
+}
+  .imgs {
+    max-width: 100%; 
+ 
+  }
+
+  
+  .Ver_tecn{
+   background-color: $main-color;
+   border: none;
+   padding: 1rem;
+   border-radius: 0.5rem;
+   color: white;
+  
+  }
+  
+  .texts{
+    font-size: 1.1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .conteiner {
+      flex-direction: row; 
+    }
+  
+    #left {
+      width: 50%; 
+    }
+  
+    #right {
+      width: 50%; 
+    }
+  }
