@@ -33,7 +33,7 @@ function Carousel() {
                   <img src={star} alt="star" />
                   <h2 id="title_articule">PHP</h2>
                   <p className="texts">Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. <br /> Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis.<br /> Amet diam dolor tincidunt congue sagittis in.</p>
-                  <button className="Ver_tecn">Ver Tecnologia</button>
+                  <button className="Ver_tecn">Ver Tecnologia →</button>
                 </article>
                 <section id="right">
                   <img src={img_one_corausel} alt="" className="imgs" />
@@ -46,7 +46,7 @@ function Carousel() {
                   <img src={star} alt="star" />
                   <h2 id="title_articule">Flutter</h2>
                   <p className="texts">Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. <br /> Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis.<br /> Amet diam dolor tincidunt congue sagittis in.</p>
-                  <button className="Ver_tecn">Ver Tecnologia</button>
+                  <button className="Ver_tecn">Ver Tecnologia →</button>
                 </article>
                 <section id="right">
                   <img src={img_two_corausel} alt="" className="imgs" />
@@ -59,7 +59,7 @@ function Carousel() {
                   <img src={star} alt="star" />
                   <h2 id="title_articule">Diseño UX/UI</h2>
                   <p className="texts">Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. <br /> Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. <br /> Amet diam dolor tincidunt congue sagittis in.</p>
-                  <button className="Ver_tecn">Ver Tecnologia</button>
+                  <button className="Ver_tecn">Ver Tecnologia →</button>
                 </article>
                 <section id="right">
                   <img src={img_three_corausel} alt="" className="imgs" />
