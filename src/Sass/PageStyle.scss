@@ -1,5 +1,5 @@
 $main-color: #1A36A8;
-$color-diferent:#D43E36;
+$color-diferent: #D43E36;
 
 .all {
   background-color: $main-color;
@@ -22,9 +22,10 @@ $color-diferent:#D43E36;
   padding: 3%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   .section_left {
-    width: 100%; 
+    width: 100%;
 
     .Circle_text {
       display: flex;
@@ -65,7 +66,8 @@ $color-diferent:#D43E36;
         margin-left: 1.5%;
         display: flex;
         flex-direction: column;
-        .linea_roja{
+
+        .linea_roja {
           width: 30%;
         }
       }
@@ -83,7 +85,7 @@ $color-diferent:#D43E36;
       border-radius: 1rem;
       max-width: 100%;
 
-      animation: jumpAnimation 1s infinite alternate; 
+      animation: jumpAnimation 1s infinite alternate;
     }
   }
 
@@ -91,77 +93,84 @@ $color-diferent:#D43E36;
     0% {
       transform: translateY(0);
     }
+
     100% {
-      transform: translateY(-10px); 
+      transform: translateY(-10px);
     }
   }
- 
+
   @media only screen and (min-width: 768px) {
     .section_left {
-      width: 50%; 
+      width: 50%;
     }
 
     .section_right {
-      width: 50%; 
+      width: 50%;
     }
-  
+
   }
 }
 
-.second_section{
+.second_section {
   background-color: white;
-  .emojis{
-    top: 2.3em; 
+
+  .emojis {
+    top: 2.3em;
     left: 50%;
-    position: relative;  
+    position: relative;
     width: 10%;
   }
-  .linea{
+
+  .linea {
     width: 80%;
-   margin: 0 auto;
+    margin: 0 auto;
     height: 2px;
     background-color: $main-color;
   }
-  .titulo_pregunta{
+
+  .titulo_pregunta {
     color: $main-color;
     font-family: sans-serif;
     font-size: xx-large;
     margin-bottom: 0;
   }
-   .subtitle{
+
+  .subtitle {
     margin-top: 2em;
     font-weight: 200;
-    .cyber{
-      color:$color-diferent;
+
+    .cyber {
+      color: $color-diferent;
       font-weight: 700;
     }
-   }
+  }
+
   .articulo_pasos {
     padding: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
     .Los_pasos {
       display: flex;
       flex-wrap: wrap;
-  
+      justify-content: center;
       .paso {
         padding: 2rem 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        transition: transform 0.3s ease; 
-  
+        transition: transform 0.3s ease;
+
         &:hover {
-          transform: translateY(-5px); 
+          transform: translateY(-5px);
         }
-  
+
         #h4 {
           color: $main-color;
           font-size: x-large;
         }
-       
+
         .imagen_pasos {
           display: flex;
           align-items: center;
@@ -173,7 +182,7 @@ $color-diferent:#D43E36;
     }
   }
 
-  .intro_carrusel{
+  .intro_carrusel {
     padding: 5rem;
     display: flex;
     align-items: center;
@@ -182,10 +191,10 @@ $color-diferent:#D43E36;
   }
 }
 
-#title_corausel{
+#title_corausel {
   color: $main-color;
   margin-bottom: 0;
- font-size: xx-large;
+  font-size: xx-large;
 }
 
 footer {
@@ -208,9 +217,11 @@ footer {
     align-items: center;
     margin-top: 10px;
   }
-  .redes{
+
+  .redes {
     margin: 2%;
   }
+
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;

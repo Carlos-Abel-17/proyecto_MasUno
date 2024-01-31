@@ -1,28 +1,30 @@
 $primary-color: #3498db;
 
-body{
+body {
      background-color: $primary-color;
 }
 
-.splide{
+.splide {
      display: flex;
      border: solid pink;
 }
-.splide__track{
- border: solid black;
- display: flex;
- width: 100%;
+
+.splide__track {
+     border: solid black;
+     display: flex;
+     width: 100%;
 }
-.splide__list{
+
+.splide__list {
      border: solid red;
      display: flex;
 }
 
-.splide__slide{
-     border: solid blue ;
+.splide__slide {
+     border: solid blue;
 }
 
-.rt{
+.rt {
      display: flex;
      align-items: center;
 }
